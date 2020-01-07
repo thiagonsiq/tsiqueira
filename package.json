@@ -6,13 +6,13 @@
     "start": "ng serve --open",
     "build": "ng build && npm test",
     "test:local": "ng test --code-coverage --source-map --browsers=Chrome  --watch=true",
-    "test": "ng test --code-coverage --source-map --browsers=ChromeNoSandbox",
+    "test": "ng test --code-coverage --source-map --browsers=google-chrome",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run test"
+      "pre-commit": "npm run lint"
     }
   },
   "private": true,

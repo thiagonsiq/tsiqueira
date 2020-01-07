@@ -39,7 +39,10 @@ module.exports = function (config) {
       'google-chrome': {
         base: 'google-chrome',
         flags: [
-          '--no-sandbox'
+          '--headless',
+          '--disable-gpu',
+          '--no-sandbox',
+          '--remote-debugging-port=9222'
         ]
       }
     }

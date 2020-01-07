@@ -33,18 +33,7 @@ module.exports = function (config) {
     captureTimeout: 140000,
     browserDisconnectTimeout: 140000,
     browserNoActivityTimeout: 140000,
-    browsers: ['Chrome', 'google-chrome'],
-    singleRun: true,
-    customLaunchers: {
-      'google-chrome': {
-        base: 'google-chrome',
-        flags: [
-          '--headless',
-          '--disable-gpu',
-          '--no-sandbox',
-          '--remote-debugging-port=9222'
-        ]
-      }
-    }
+    browsers: ['Chrome'],
+    singleRun: true
   });
 };

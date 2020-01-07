@@ -6,7 +6,7 @@
     "start": "ng serve --open",
     "build": "ng build && npm test",
     "test:local": "ng test --code-coverage --source-map --browsers=Chrome  --watch=true",
-    "test": "ng test --code-coverage --source-map --browsers=google-chrome",
+    "test": "ng test --code-coverage --source-map --browsers=Chrome",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

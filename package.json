@@ -7,7 +7,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build && ng test",
+    "build": "ng build",
     "test": "ng test --browsers=ChromeNoSandbox --watch=false --code-coverage=false",
     "lint": "ng lint",
     "e2e": "ng e2e"

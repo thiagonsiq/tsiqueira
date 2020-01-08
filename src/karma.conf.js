@@ -33,7 +33,15 @@ module.exports = function (config) {
     captureTimeout: 140000,
     browserDisconnectTimeout: 140000,
     browserNoActivityTimeout: 140000,
-    browsers: ['Chrome', 'google-chrome'],
-    singleRun: true
+    browsers: ['Chrome', 'ChromeNoSandbox'],
+    singleRun: true,
+    customLaunchers: {
+      ChromeNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: [
+          '--no-sandbox'
+        ]
+      }
+    }
   });
 };

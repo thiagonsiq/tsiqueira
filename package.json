@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build && npm test",
+    "build": "ng build",
     "test:local": "ng test --code-coverage --source-map --browsers=Chrome  --watch=true",
-    "test": "ng test --code-coverage --source-map --browsers=Chrome",
+    "test": "ng test --code-coverage --source-map --browsers=google-chrome",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

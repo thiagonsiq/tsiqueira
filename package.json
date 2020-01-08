@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build",
+    "build": "ng build && ng test",
     "test:local": "ng test --code-coverage --source-map --browsers=Chrome  --watch=true",
     "test": "ng test --code-coverage --source-map --browsers=google-chrome",
     "lint": "ng lint",

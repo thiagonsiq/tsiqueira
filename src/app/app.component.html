@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm bg-white rounded" id="mainNav">
   <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#top">Thiago Siqueira</a>
+      <a class="navbar-brand js-scroll-trigger" href="#top">thiagosiqueira.io</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" 
         aria-label="Toggle Navigation"><i class="fa fa-bars"></i></button>
@@ -20,22 +20,37 @@
   </header>
   
   <div class="container">
-    <div class="row" style="height:200px">
-      <div class="col bg-danger">picture</div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 imgDiv">
+        <img class="img-fluid d-block mx-auto shadow-md rounded-circle" style="border: 1px solid #ddd;" src="../assets/me.jpeg" />
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row mt-3">
+        <div class="col text-center"><h3>Thiago Siqueira</h3></div>
     </div>
     <div class="row">
-        <div class="col bg-white">Software Engineer, Dad, Husband, Scuba Diver</div>
-      </div>
-    <div class="row">
-      <div class="col bg-secondary">LinkedIn</div>
-      <div class="col bg-info">Github</div>
-      <div class="col bg-success">Something Else</div>
+        <div class="col text-center">Software Engineer, Dad, Husband, Scuba Diver</div>
     </div>
-    <div class="row">
-        <div class="col bg-secondary">Experience</div>
-        <div class="col bg-info">Projects</div>
-        <div class="col bg-success">Contact</div>
-      </div>
+    <div class="row mt-3 offset-5">
+      <div class="col-1"><a target="_blank" href="https://www.linkedin.com/in/thiagonsiq"><i class="fab fa-2x fa-linkedin"></i></a></div>
+      <div class="col-1"><a target="_blank" href="https://github.com/thiagonsiq"><i class="fab fa-2x fa-github"></i></a></div>
+      <div class="col-1"><a target="_blank" href="https://twitter.com/thiagonsiq"><i class="fab fa-2x fa-twitter"></i></a></div>
+    </div>
+    <div class="row justify-content-center mt-3">
+      <div class="col-8">
+      <p>
+        Warning: Work in progress! Some random text about me will go here to fill in space until you decide to leave. Then i'll write some more to try
+        to get your attention if maybe you come back. 
+      </p>
+    </div>
+    </div>
+    <div class="d-flex flex-row justify-content-center mt-3 text-center">
+      <div class="p-3 shadow-sm bg-white rounded card-item">Experience</div>
+      <div class="p-3 ml-3 mr-3 shadow-sm bg-white rounded card-item">Projects</div>
+      <div class="p-3 shadow-sm bg-white rounded card-item">Contact</div>
+    </div>
   </div>
 
 <router-outlet></router-outlet>

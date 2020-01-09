@@ -4,5 +4,15 @@
 header.masthead{
     text-align:center;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
+}
+
+.imgDiv img {
+    width: 230px;
+    height: 230px;
+}
+
+.card-item {
+    border: 1px solid #ccc;
+    width: 150px;
 }

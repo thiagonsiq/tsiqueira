@@ -7,13 +7,11 @@
   },
   "scripts": {
     "ng": "ng",
-    "start:local": "ng serve --open",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test --browsers=ChromeNoSandbox --watch=false --code-coverage=false",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "e2e": "ng e2e"
   },
   "husky": {
     "hooks": {
